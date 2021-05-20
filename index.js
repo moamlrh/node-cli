@@ -17,6 +17,9 @@ const options = {
 };
 
 program
+  .name("DEDX")
+  .description("You can download any course from edx :)")
+
   .argument("<course-id>", "Course id [You can get it from course URL]")
   .argument("<username>", "Your username in edx.org")
   .argument("<cookie>", "Your edx cookies [You can get it from network tab]")
