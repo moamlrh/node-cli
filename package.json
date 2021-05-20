@@ -18,6 +18,7 @@
   },
   "homepage": "https://github.com/moamlrh/node-cli#readme",
   "dependencies": {
-    "@caporal/core": "^2.0.2"
+    "@caporal/core": "^2.0.2",
+    "dedx": "^1.1.2"
   }
 }
