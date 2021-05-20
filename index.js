@@ -17,8 +17,8 @@ const options = {
 };
 
 program
-  .argument("<course-id>", "Course id [You can get it from URL]")
-  .argument("<username>", "You username in edx.org")
+  .argument("<course-id>", "Course id [You can get it from course URL]")
+  .argument("<username>", "Your username in edx.org")
   .argument("<cookie>", "Your edx cookies [You can get it from network tab]")
 
   .option("-l, --limit <limit>", options.limit, {
